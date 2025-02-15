@@ -15,10 +15,10 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@eko-ai/eko": "^1.0.9",
     "antd": "^5.22.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "@eko-ai/eko": "^1.0.9"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/chrome": "0.0.158",
@@ -26,6 +26,7 @@
     "@types/react-dom": "^18.0.11",
     "copy-webpack-plugin": "^9.0.1",
     "glob": "^7.1.6",
+    "path-browserify": "^1.0.1",
     "prettier": "^2.2.1",
     "rimraf": "^3.0.2 ",
     "ts-loader": "^8.0.0",
