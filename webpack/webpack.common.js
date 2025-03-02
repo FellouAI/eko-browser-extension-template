@@ -33,6 +33,10 @@ module.exports = {
     },
     resolve: {
         extensions: [".ts", ".tsx", ".js"],
+        fallback: {
+            "path": require.resolve("path-browserify"),
+            "fs": false
+        }
     },
     plugins: [
         new CopyWebpackPlugin({
